@@ -678,7 +678,7 @@ color: var(--second-text-color);
 }
 
 .footer-icon{
-margin-right: 70px;
+margin-right: auto;
 }
 
 .connect{
@@ -771,6 +771,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 padding-left: 16px;
 justify-content: center;
 background-color: transparent;
+color: var(--second-text-color);
 }
 
 .footer-form-input::placeholder{
@@ -839,8 +840,7 @@ transform: translate(-50%,-50%);
 background-color: var(--second-text-color);
 width: 528px;
 height: 581px;
-padding-top: 40px;
-padding-bottom: 40px;
+padding: 40px;
 border-radius: 4px;
 }
 
@@ -876,9 +876,6 @@ flex-direction: column;
 
 align-items: center;
 justify-content: center;
-
-margin-right: 40px;
-margin-left: 40px;
 }
 
 .modal-tital{
